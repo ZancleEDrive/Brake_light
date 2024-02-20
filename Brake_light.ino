@@ -31,7 +31,7 @@ void setup()
   CAN0.init_Filt(5,1,0x000F1906);                // Init sixth filter...
 
 
-  //Prova commento
+
   CAN0.setMode(MCP_NORMAL);                     // Set operation mode to normal so the MCP2515 sends acks to received data.
 
   pinMode (1, OUTPUT);
