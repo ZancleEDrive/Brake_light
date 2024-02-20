@@ -6,9 +6,6 @@
 long unsigned rxId;
 unsigned char len;
 byte rxBuf[8];
-long unsigned int rxId2;
-unsigned char len2;
-byte rxBuf2[8];
 
 MCP_CAN CAN0(9);
 
